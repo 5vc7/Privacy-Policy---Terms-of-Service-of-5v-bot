@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guard Bot - Terms of Service & Privacy Policy</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #5865f2;
+            --accent-hover: #4752c4;
+            --border: #334155;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            color: var(--text-primary);
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        nav a {
+            color: var(--text-primary);
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: var(--bg-secondary);
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: var(--accent);
+            border-color: var(--accent);
+        }
+
+        section {
+            background-color: var(--bg-secondary);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: var(--accent);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: var(--text-primary);
+            margin-top: 20px;
+        }
+
+        p, li {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Guard Bot</h1>
+            <p class="subtitle">Terms of Service & Privacy Policy</p>
+        </header>
+
+        <nav>
+            <a href="#terms">Terms of Service</a>
+            <a href="#privacy">Privacy Policy</a>
+        </nav>
+
+        <!-- TERMS OF SERVICE -->
+        <section id="terms">
+            <h2>Terms of Service</h2>
+            <p><strong>Last Updated:</strong> October 2, 2026</p>
+
+            <h3>1. Acceptance of Terms</h3>
+            <p>By inviting or using <strong>Guard Bot</strong> ("the Bot") in your Discord server, you agree to be bound by these Terms of Service. If you do not agree to these terms, please remove the Bot from your server.</p>
+
+            <h3>2. Bot Usage & Intended Scope</h3>
+            <p>Guard Bot is an administrative moderation tool designed exclusively for server staff to enforce server rules, manage user restrictions, and log administrative actions (such as temporary or permanent play bans).</p>
+
+            <h3>3. Responsibilities & User Conduct</h3>
+            <ul>
+                <li>Server administrators are solely responsible for actions taken using the Bot's commands (e.g., <code>/punish</code>, <code>/unpunish</code>, <code>/config-logchannel</code>).</li>
+                <li>The Bot must not be used to violate Discord's Terms of Service or Community Guidelines.</li>
+                <li>Abuse or attempted exploitation of the Bot's command structure is strictly prohibited.</li>
+            </ul>
+
+            <h3>4. Service Availability & Limitations</h3>
+            <p>The Bot is provided on an "as is" and "as available" basis. We reserve the right to modify, suspend, or discontinue the Bot or its services at any time without prior notice.</p>
+
+            <h3>5. Termination</h3>
+            <p>We reserve the right to restrict or terminate access to the Bot for any server or user that misuses the service or violates these terms.</p>
+        </section>
+
+        <!-- PRIVACY POLICY -->
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated:</strong> October 2, 2026</p>
+
+            <h3>1. Information We Collect</h3>
+            <p>Guard Bot collects minimal data strictly necessary for providing moderation and logging functionalities. This includes:</p>
+            <ul>
+                <li><strong>Discord User IDs:</strong> To identify users receiving or issuing administrative actions.</li>
+                <li><strong>Discord Guild (Server) & Channel IDs:</strong> To route log messages and configuration settings (e.g., designated log channels).</li>
+                <li><strong>Role IDs:</strong> To assign or remove restricted roles associated with penalties.</li>
+                <li><strong>Moderation Action Logs:</strong> Reason text, timestamps, and punishment durations entered by staff members.</li>
+            </ul>
+
+            <h3>2. How We Use Information</h3>
+            <p>The stored data is used exclusively to:</p>
+            <ul>
+                <li>Execute administrative punishment commands and manage timed sanctions.</li>
+                <li>Display active penalties and history records within server log channels.</li>
+                <li>Maintain bot configurations specified by server administrators.</li>
+            </ul>
+
+            <h3>3. Data Sharing & Third Parties</h3>
+            <p>We do not sell, rent, or trade any collected data to third parties. Data is stored securely and processed solely within the scope of Discord's API ecosystem.</p>
+
+            <h3>4. Data Retention & Removal</h3>
+            <ul>
+                <li>Punishment data is stored only for as long as necessary to enforce active penalties or maintain administrative audit logs.</li>
+                <li>Server administrators may request data deletion by contacting server administration or removing the Bot from their server.</li>
+            </ul>
+
+            <h3>5. Contact Information</h3>
+            <p>For questions regarding these Terms or Privacy Policy, please contact the server administration team via the official server ticket system or support channels.</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Guard Bot. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
